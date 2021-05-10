@@ -38,7 +38,7 @@ public class TarjetaServlet extends HttpServlet {
 		
 		tarjetaCliente.crearTarjetaDigital(tarjeta);
 		
-		req.getRequestDispatcher("/confirmacion.jsp").forward(req, resp);
+		req.getRequestDispatcher("/index.jsp").forward(req, resp);
 		
 		
 		//super.service(req, resp);
